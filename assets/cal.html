@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>enter the number1</label><br>
+    <input type="number" placeholder="enter the first value" id="v1"> <br><br>
+    <label>enter the number2</label><br>
+    <input type="number" placeholder="enter the second value" id="v2"><br><br>
+    <input type="button" value="addition" onclick="addition()">
+    <input type="button" value="subtraction" onclick="sub()"><br>
+    <input type="button" value="multiplication" onclick="mul()">
+    <input type="button" value="division" onclick="divide()">
+
+</body>
+    <script>
+        function addition(){
+            let val1 = document.getElementById("v1").value;
+            let val2= document.getElementById("v2").value;
+            console.log(Number(val1)+Number(val2));
+
+        }
+        function sub(){
+            let val1 = document.getElementById("v1").value;
+            let val2= document.getElementById("v2").value;
+            console.log(val1-val2)
+
+        }
+        function mul(){
+            let val1 = document.getElementById("v1").value;
+            let val2= document.getElementById("v2").value;
+            console.log(val1*val2)
+
+        }
+        function divide(){
+            let val1 = document.getElementById("v1").value;
+            let val2= document.getElementById("v2").value;
+            console.log(val1%val2)
+
+        }
+    </script>
+</html>
