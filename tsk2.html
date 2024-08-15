@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //filter is used to filter the array in given condition
+    var num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+    //numb = num.filter(element => element%2==0);
+    numb = num.filter((i)=>{return i%2==0});
+    console.log(numb);
+
+    //it crate an new array and get the element from given array given condition is done
+    //brr = num.map(element => element * 2)
+    //console.log(brr);
+    
+    numbe = num.map((i)=>i*2);
+    console.log(numbe);
+
+    let after = num.filter((i)=>{return i%2==0}).map((i)=>{return i*2});
+    console.log(after)
+
+
+</script>
+</html>

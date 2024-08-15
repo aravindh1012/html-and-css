@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="select">
+        <option>aravindh</option>
+        <option>dev</option>
+        <option>vishnu</option>
+        <option>bala</option>
+    </select>
+</body>
+<script>
+    document.getElementById("select").addEventListener('change',(e)=>{
+        let val = document.getElementById("select").value;
+        console.log(e.target.value);
+    })
+</script>
+</html>
