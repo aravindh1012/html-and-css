@@ -68,6 +68,7 @@ form {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 form label {
@@ -86,6 +87,7 @@ form button {
     border: none;
     cursor: pointer;
     margin-top: 15px;
+    border-radius: 10px;
 }
 
 form button:hover {
